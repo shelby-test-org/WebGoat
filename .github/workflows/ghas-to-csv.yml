@@ -1,8 +1,9 @@
 name: GHAS to CSV data report run
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
+  Runs-ghas-to-csv-report:
+    runs-on: ubuntu-latest
+    steps:
       - name: CSV export
         uses: advanced-security/ghas-to-csv@v2
         env:
