@@ -9,7 +9,7 @@ jobs:
         env:
           GITHUB_PAT: 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
           GITHUB_REPORT_SCOPE: "organization"
-          SCOPE_NAME: "org-name-goes-here"
+          SCOPE_NAME: "shelby-test-org"
           
       - name: Upload CSV
         uses: actions/upload-artifact@v3
